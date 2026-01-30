@@ -77,7 +77,7 @@ Como el archivo `.bat` está incluido en el `.gitignore` por seguridad de rutas,
 
 ```batch
 @echo off
-title Lanzador de Busquedas Rewards
+title Lanzador de Busquedas Edge
 cd /d "%~dp0"
 echo Activando entorno virtual...
 call .\env\Scripts\activate.bat
@@ -99,8 +99,6 @@ pause
 - **Pausas de seguridad:** Cada 10 búsquedas hace una pausa larga de 25-60 segundos
 - **IDs únicos:** Genera un identificador de sesión único (CVID) para cada búsqueda
 - **User-Agent real:** Simula un navegador Chrome para evitar bloqueos de API
-
-### Control de Navegación
 
 ### Navegación Interactiva
 
